@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/beanie/Documents/beangine/build/cmake_install.cmake",
+		"/home/beanie/Documents/beangine/build/_deps/sdl-build/cmake_install.cmake",
+		"/home/beanie/Documents/beangine/build/_deps/sdl_image-build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

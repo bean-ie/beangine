@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -Wl,--dependency-file=CMakeFiles/engine.dir/link.d CMakeFiles/engine.dir/src/main.cpp.o -o bin/engine  -Wl,-rpath,/home/beanie/Documents/beangine/build/_deps/sdl_image-build:/home/beanie/Documents/beangine/build/_deps/sdl-build libimgui.a _deps/sdl_image-build/libSDL3_image.so.0.4.8 _deps/sdl-build/libSDL3.so.0.4.18

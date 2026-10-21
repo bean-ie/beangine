@@ -1,0 +1,12 @@
+/home/beanie/Documents/beangine/build/CMakeFiles/imgui.dir
+/home/beanie/Documents/beangine/build/CMakeFiles/beangine.dir
+/home/beanie/Documents/beangine/build/CMakeFiles/edit_cache.dir
+/home/beanie/Documents/beangine/build/CMakeFiles/rebuild_cache.dir
+/home/beanie/Documents/beangine/build/_deps/sdl-build/CMakeFiles/SDL3-shared.dir
+/home/beanie/Documents/beangine/build/_deps/sdl-build/CMakeFiles/SDL3_test.dir
+/home/beanie/Documents/beangine/build/_deps/sdl-build/CMakeFiles/SDL_uclibc.dir
+/home/beanie/Documents/beangine/build/_deps/sdl-build/CMakeFiles/edit_cache.dir
+/home/beanie/Documents/beangine/build/_deps/sdl-build/CMakeFiles/rebuild_cache.dir
+/home/beanie/Documents/beangine/build/_deps/sdl_image-build/CMakeFiles/SDL3_image-shared.dir
+/home/beanie/Documents/beangine/build/_deps/sdl_image-build/CMakeFiles/edit_cache.dir
+/home/beanie/Documents/beangine/build/_deps/sdl_image-build/CMakeFiles/rebuild_cache.dir

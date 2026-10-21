@@ -1,0 +1,76 @@
+{
+	"abstract" : true,
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"find_package",
+			"set_target_properties"
+		],
+		"files" : 
+		[
+			"/usr/share/cmake/Modules/FindPNG.cmake",
+			"external/SDL3_image-3.4.8/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 887,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 173,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 2
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	},
+	"id" : "PNG::PNG::@6b7ccc8d74ccd70fd666",
+	"imported" : true,
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "ZLIB::ZLIB::@6b7ccc8d74ccd70fd666"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "ZLIB::ZLIB::@6b7ccc8d74ccd70fd666"
+		}
+	],
+	"local" : true,
+	"name" : "PNG::PNG",
+	"paths" : 
+	{
+		"build" : "_deps/sdl_image-build",
+		"source" : "external/SDL3_image-3.4.8"
+	},
+	"sources" : [],
+	"type" : "UNKNOWN_LIBRARY"
+}

@@ -1,0 +1,74 @@
+{
+	"abstract" : true,
+	"backtrace" : 6,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"find_package",
+			"CheckX11"
+		],
+		"files" : 
+		[
+			"/usr/share/cmake/Modules/FindFreetype.cmake",
+			"/usr/share/cmake/Modules/FindX11.cmake",
+			"build/_deps/sdl-src/cmake/sdlchecks.cmake",
+			"build/_deps/sdl-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 1841,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 286,
+				"parent" : 1
+			},
+			{
+				"file" : 1,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 373,
+				"parent" : 3
+			},
+			{
+				"file" : 0,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 234,
+				"parent" : 5
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	},
+	"id" : "Freetype::Freetype::@fc7b397d5a055aba6d5e",
+	"imported" : true,
+	"local" : true,
+	"name" : "Freetype::Freetype",
+	"paths" : 
+	{
+		"build" : "_deps/sdl-build",
+		"source" : "build/_deps/sdl-src"
+	},
+	"sources" : [],
+	"type" : "UNKNOWN_LIBRARY"
+}

@@ -1,0 +1,23 @@
+_deps/sdl-build/CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_render_gl.c.o: \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/src/render/opengl/SDL_render_gl.c \
+ /usr/include/stdc-predef.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/src/SDL_internal.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/src/render/opengl/../../video/SDL_sysvideo.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_vulkan.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_stdinc.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_error.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_video.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_begin_code.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_close_code.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/src/render/opengl/../../video/SDL_surface_c.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/src/render/opengl/../../video/SDL_blit.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_opengl.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_platform.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_opengl_glext.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/src/render/opengl/../SDL_sysrender.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/src/render/opengl/../../video/SDL_surface_c.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/src/render/opengl/../SDL_yuv_sw_c.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/src/render/opengl/SDL_shaders_gl.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/src/render/opengl/../../video/SDL_pixels_c.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/src/render/opengl/SDL_glfuncs.h

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -Wl,--dependency-file=CMakeFiles/executable.dir/link.d CMakeFiles/executable.dir/main.cpp.o -o executable
