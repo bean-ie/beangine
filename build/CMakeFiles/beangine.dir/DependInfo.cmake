@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/beanie/Documents/beangine/src/main.cpp" "CMakeFiles/beangine.dir/src/main.cpp.o" "gcc" "CMakeFiles/beangine.dir/src/main.cpp.o.d"
+  "/home/beanie/Documents/beangine/src/utils.cpp" "CMakeFiles/beangine.dir/src/utils.cpp.o" "gcc" "CMakeFiles/beangine.dir/src/utils.cpp.o.d"
   "" "bin/beangine" "gcc" "CMakeFiles/beangine.dir/link.d"
   )
 

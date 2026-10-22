@@ -1,6 +1,6 @@
 CMakeFiles/beangine.dir/src/main.cpp.o: \
  /home/beanie/Documents/beangine/src/main.cpp /usr/include/stdc-predef.h \
- /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_events.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_stdinc.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_platform_defines.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdarg.h \
@@ -23,9 +23,6 @@ CMakeFiles/beangine.dir/src/main.cpp.o: \
  /usr/include/bits/stdint-least.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_begin_code.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_close_code.h \
- /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_assert.h \
- /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_asyncio.h \
- /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_atomic.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_audio.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_endian.h \
  /usr/include/endian.h /usr/include/bits/endian.h \
@@ -33,21 +30,15 @@ CMakeFiles/beangine.dir/src/main.cpp.o: \
  /usr/include/bits/uintn-identity.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_error.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_mutex.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_atomic.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_thread.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_properties.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_iostream.h \
- /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_bits.h \
- /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_blendmode.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_camera.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_pixels.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_surface.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_blendmode.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_rect.h \
- /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_clipboard.h \
- /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_cpuinfo.h \
- /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_dialog.h \
- /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_video.h \
- /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_dlopennote.h \
- /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_events.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_gamepad.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_guid.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_joystick.h \
@@ -56,15 +47,24 @@ CMakeFiles/beangine.dir/src/main.cpp.o: \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_keyboard.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_keycode.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_scancode.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_video.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_mouse.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_pen.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_touch.h \
- /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_filesystem.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_gpu.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_init.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_assert.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_asyncio.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_bits.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_clipboard.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_cpuinfo.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_dialog.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_dlopennote.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_filesystem.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_haptic.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_hidapi.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_hints.h \
- /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_init.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_loadso.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_locale.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_log.h \
@@ -81,6 +81,8 @@ CMakeFiles/beangine.dir/src/main.cpp.o: \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_tray.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_version.h \
  /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_oldnames.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_main.h \
+ /home/beanie/Documents/beangine/build/_deps/sdl-src/include/SDL3/SDL_main_impl.h \
  /usr/include/c++/16/cstdlib \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -99,6 +101,7 @@ CMakeFiles/beangine.dir/src/main.cpp.o: \
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-float.h /usr/include/c++/16/bits/std_abs.h \
+ /home/beanie/Documents/beangine/src/utils.h \
  /usr/include/c++/16/stdexcept /usr/include/c++/16/exception \
  /usr/include/c++/16/bits/exception.h /usr/include/c++/16/bits/version.h \
  /usr/include/c++/16/bits/exception_ptr.h \
@@ -169,8 +172,4 @@ CMakeFiles/beangine.dir/src/main.cpp.o: \
  /usr/include/c++/16/bits/memory_resource.h /usr/include/c++/16/cstddef \
  /usr/include/c++/16/bits/uses_allocator.h \
  /usr/include/c++/16/bits/uses_allocator_args.h /usr/include/c++/16/tuple \
- /usr/include/c++/16/bits/stdexcept_except.h /usr/include/c++/16/vector \
- /usr/include/c++/16/bits/stl_uninitialized.h \
- /usr/include/c++/16/bits/stl_vector.h \
- /usr/include/c++/16/bits/stl_bvector.h \
- /usr/include/c++/16/bits/vector.tcc /usr/include/c++/16/bits/formatfwd.h
+ /usr/include/c++/16/bits/stdexcept_except.h

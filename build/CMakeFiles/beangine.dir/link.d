@@ -3,6 +3,7 @@ bin/beangine: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o \
   CMakeFiles/beangine.dir/src/main.cpp.o \
+  CMakeFiles/beangine.dir/src/utils.cpp.o \
   libimgui.a \
   _deps/sdl_image-build/libSDL3_image.so.0.4.8 \
   _deps/sdl-build/libSDL3.so.0.4.18 \
@@ -45,6 +46,8 @@ bin/beangine: \
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o:
 
 CMakeFiles/beangine.dir/src/main.cpp.o:
+
+CMakeFiles/beangine.dir/src/utils.cpp.o:
 
 libimgui.a:
 

@@ -165,9 +165,9 @@ CMakeFiles/imgui.dir/clean:
 # Target rules for target CMakeFiles/beangine.dir
 
 # All Build rule for target.
-CMakeFiles/beangine.dir/all: _deps/sdl_image-build/CMakeFiles/SDL3_image-shared.dir/all
-CMakeFiles/beangine.dir/all: _deps/sdl-build/CMakeFiles/SDL3-shared.dir/all
 CMakeFiles/beangine.dir/all: CMakeFiles/imgui.dir/all
+CMakeFiles/beangine.dir/all: _deps/sdl-build/CMakeFiles/SDL3-shared.dir/all
+CMakeFiles/beangine.dir/all: _deps/sdl_image-build/CMakeFiles/SDL3_image-shared.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/beangine.dir/build.make CMakeFiles/beangine.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/beangine.dir/build.make CMakeFiles/beangine.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/beanie/Documents/beangine/build/CMakeFiles --progress-num=98 "Built target beangine"

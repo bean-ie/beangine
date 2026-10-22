@@ -48,6 +48,12 @@
   "output": "CMakeFiles/beangine.dir/src/main.cpp.o"
 },
 {
+  "directory": "/home/beanie/Documents/beangine/build",
+  "command": "/usr/bin/g++  -I/home/beanie/Documents/beangine/build/_deps/imgui-src -I/home/beanie/Documents/beangine/build/_deps/imgui-src/backends -I/home/beanie/Documents/beangine/external/SDL3_image-3.4.8/include -isystem /home/beanie/Documents/beangine/build/_deps/sdl-build/include-revision -isystem /home/beanie/Documents/beangine/build/_deps/sdl-src/include -g -std=gnu++23 -fPIE -o CMakeFiles/beangine.dir/src/utils.cpp.o -c /home/beanie/Documents/beangine/src/utils.cpp",
+  "file": "/home/beanie/Documents/beangine/src/utils.cpp",
+  "output": "CMakeFiles/beangine.dir/src/utils.cpp.o"
+},
+{
   "directory": "/home/beanie/Documents/beangine/build/_deps/sdl-build",
   "command": "/usr/bin/gcc -DDEBUG -DUSING_GENERATED_CONFIG_H -I/home/beanie/Documents/beangine/build/_deps/sdl-build/include-config-debug/build_config -I/home/beanie/Documents/beangine/build/_deps/sdl-src/src -I/home/beanie/Documents/beangine/build/_deps/sdl-src/include -g -fPIC -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fdiagnostics-color=always -o CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.o -c /home/beanie/Documents/beangine/build/_deps/sdl-src/src/libm/e_atan2.c",
   "file": "/home/beanie/Documents/beangine/build/_deps/sdl-src/src/libm/e_atan2.c",

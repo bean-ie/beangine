@@ -34,6 +34,8 @@ CMakeFiles/beangine.dir/src/main.cpp.o: /home/beanie/Documents/beangine/src/main
   _deps/sdl-src/include/SDL3/SDL_loadso.h \
   _deps/sdl-src/include/SDL3/SDL_locale.h \
   _deps/sdl-src/include/SDL3/SDL_log.h \
+  _deps/sdl-src/include/SDL3/SDL_main.h \
+  _deps/sdl-src/include/SDL3/SDL_main_impl.h \
   _deps/sdl-src/include/SDL3/SDL_messagebox.h \
   _deps/sdl-src/include/SDL3/SDL_metal.h \
   _deps/sdl-src/include/SDL3/SDL_misc.h \
@@ -62,6 +64,7 @@ CMakeFiles/beangine.dir/src/main.cpp.o: /home/beanie/Documents/beangine/src/main
   _deps/sdl-src/include/SDL3/SDL_tray.h \
   _deps/sdl-src/include/SDL3/SDL_version.h \
   _deps/sdl-src/include/SDL3/SDL_video.h \
+  /home/beanie/Documents/beangine/src/utils.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -132,7 +135,6 @@ CMakeFiles/beangine.dir/src/main.cpp.o: /home/beanie/Documents/beangine/src/main
   /usr/include/c++/16/bits/exception.h \
   /usr/include/c++/16/bits/exception_defines.h \
   /usr/include/c++/16/bits/exception_ptr.h \
-  /usr/include/c++/16/bits/formatfwd.h \
   /usr/include/c++/16/bits/functional_hash.h \
   /usr/include/c++/16/bits/hash_bytes.h \
   /usr/include/c++/16/bits/invoke.h \
@@ -161,21 +163,17 @@ CMakeFiles/beangine.dir/src/main.cpp.o: /home/beanie/Documents/beangine/src/main
   /usr/include/c++/16/bits/stdexcept_throw.h \
   /usr/include/c++/16/bits/stdexcept_throwfwd.h \
   /usr/include/c++/16/bits/stl_algobase.h \
-  /usr/include/c++/16/bits/stl_bvector.h \
   /usr/include/c++/16/bits/stl_construct.h \
   /usr/include/c++/16/bits/stl_function.h \
   /usr/include/c++/16/bits/stl_iterator.h \
   /usr/include/c++/16/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/16/bits/stl_iterator_base_types.h \
   /usr/include/c++/16/bits/stl_pair.h \
-  /usr/include/c++/16/bits/stl_uninitialized.h \
-  /usr/include/c++/16/bits/stl_vector.h \
   /usr/include/c++/16/bits/string_view.tcc \
   /usr/include/c++/16/bits/stringfwd.h \
   /usr/include/c++/16/bits/uses_allocator.h \
   /usr/include/c++/16/bits/uses_allocator_args.h \
   /usr/include/c++/16/bits/utility.h \
-  /usr/include/c++/16/bits/vector.tcc \
   /usr/include/c++/16/bits/version.h \
   /usr/include/c++/16/cctype \
   /usr/include/c++/16/cerrno \
@@ -205,7 +203,6 @@ CMakeFiles/beangine.dir/src/main.cpp.o: /home/beanie/Documents/beangine/src/main
   /usr/include/c++/16/tuple \
   /usr/include/c++/16/type_traits \
   /usr/include/c++/16/typeinfo \
-  /usr/include/c++/16/vector \
   /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++allocator.h \
   /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h \
   /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++locale.h \
@@ -258,8 +255,6 @@ bin/beangine: /usr/lib/Scrt1.o \
   libimgui.a
 
 
-_deps/sdl_image-build/libSDL3_image.so.0.4.8:
-
 _deps/sdl-build/libSDL3.so.0.4.18:
 
 CMakeFiles/beangine.dir/src/main.cpp.o:
@@ -290,6 +285,8 @@ libimgui.a:
 
 /usr/include/stdc-predef.h:
 
+/usr/include/locale.h:
+
 /usr/include/linux/errno.h:
 
 /usr/include/features-time64.h:
@@ -297,8 +294,6 @@ libimgui.a:
 /usr/include/c++/16/x86_64-pc-linux-gnu/bits/os_defines.h:
 
 /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++locale.h:
-
-/usr/include/c++/16/vector:
 
 /usr/include/c++/16/typeinfo:
 
@@ -336,25 +331,17 @@ libimgui.a:
 
 /usr/include/c++/16/bits/version.h:
 
+/usr/include/c++/16/bits/uses_allocator.h:
+
 /usr/include/c++/16/bits/stringfwd.h:
 
-/usr/include/locale.h:
-
-/usr/include/c++/16/bits/stl_vector.h:
-
 /usr/include/c++/16/bits/string_view.tcc:
-
-/usr/include/c++/16/bits/stl_uninitialized.h:
 
 /usr/include/c++/16/bits/stl_iterator_base_types.h:
 
 /usr/include/c++/16/bits/stl_iterator.h:
 
 /usr/include/c++/16/bits/stl_function.h:
-
-/usr/include/c++/16/bits/uses_allocator.h:
-
-/usr/include/c++/16/bits/stl_bvector.h:
 
 /usr/include/c++/16/bits/stl_algobase.h:
 
@@ -414,8 +401,6 @@ libimgui.a:
 
 /usr/include/c++/16/bits/functional_hash.h:
 
-/usr/include/c++/16/bits/formatfwd.h:
-
 /usr/include/c++/16/bits/exception_ptr.h:
 
 /usr/include/c++/16/bits/utility.h:
@@ -423,6 +408,12 @@ libimgui.a:
 /usr/include/c++/16/bits/hash_bytes.h:
 
 /usr/include/c++/16/bits/erase_if.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic_asneeded.so:
+
+/usr/include/c++/16/bits/cxxabi_forced.h:
+
+/usr/include/c++/16/bits/cpp_type_traits.h:
 
 _deps/sdl-src/include/SDL3/SDL_timer.h:
 
@@ -438,15 +429,15 @@ _deps/sdl-src/include/SDL3/SDL_render.h:
 
 _deps/sdl-src/include/SDL3/SDL_sensor.h:
 
-/usr/include/bits/types/struct_timespec.h:
-
-_deps/sdl-src/include/SDL3/SDL.h:
-
 /usr/include/bits/thread-shared-types.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic.so:
 
 _deps/sdl-src/include/SDL3/SDL_rect.h:
+
+_deps/sdl-src/include/SDL3/SDL.h:
+
+/usr/include/bits/types/struct_timespec.h:
 
 /usr/include/c++/16/bits/stl_iterator_base_funcs.h:
 
@@ -463,8 +454,6 @@ _deps/sdl-src/include/SDL3/SDL_power.h:
 /usr/include/bits/atomic_wide_counter.h:
 
 /usr/include/bits/types/clockid_t.h:
-
-_deps/sdl-src/include/SDL3/SDL_tray.h:
 
 /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++allocator.h:
 
@@ -494,6 +483,8 @@ _deps/sdl-src/include/SDL3/SDL_scancode.h:
 
 _deps/sdl-src/include/SDL3/SDL_time.h:
 
+_deps/sdl-src/include/SDL3/SDL_tray.h:
+
 _deps/sdl-src/include/SDL3/SDL_platform_defines.h:
 
 _deps/sdl-src/include/SDL3/SDL_loadso.h:
@@ -515,8 +506,6 @@ _deps/sdl-src/include/SDL3/SDL_clipboard.h:
 /usr/include/c++/16/limits:
 
 _deps/sdl-src/include/SDL3/SDL_cpuinfo.h:
-
-_deps/sdl-src/include/SDL3/SDL_metal.h:
 
 /usr/include/c++/16/bits/stdexcept_throwfwd.h:
 
@@ -550,6 +539,12 @@ _deps/sdl-src/include/SDL3/SDL_locale.h:
 
 /usr/include/bits/types.h:
 
+/usr/include/bits/types/struct_timeval.h:
+
+_deps/sdl-src/include/SDL3/SDL_audio.h:
+
+_deps/sdl-src/include/SDL3/SDL_dialog.h:
+
 _deps/sdl-src/include/SDL3/SDL_bits.h:
 
 /usr/include/c++/16/ext/alloc_traits.h:
@@ -560,13 +555,13 @@ _deps/sdl-src/include/SDL3/SDL_properties.h:
 
 _deps/sdl-src/include/SDL3/SDL_gamepad.h:
 
+_deps/sdl-src/include/SDL3/SDL_metal.h:
+
+_deps/sdl-src/include/SDL3/SDL_main.h:
+
 /usr/include/bits/struct_mutex.h:
 
 _deps/sdl-src/include/SDL3/SDL_init.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic_asneeded.so:
-
-/usr/include/c++/16/bits/cxxabi_forced.h:
 
 /usr/include/bits/types/locale_t.h:
 
@@ -577,6 +572,12 @@ _deps/sdl-src/include/SDL3/SDL_thread.h:
 /usr/include/bits/locale.h:
 
 _deps/sdl-src/include/SDL3/SDL_pixels.h:
+
+/usr/include/c++/16/bits/cxxabi_init_exception.h:
+
+_deps/sdl-src/include/SDL3/SDL_log.h:
+
+_deps/sdl-src/include/SDL3/SDL_camera.h:
 
 _deps/sdl-src/include/SDL3/SDL_guid.h:
 
@@ -602,6 +603,10 @@ _deps/sdl-src/include/SDL3/SDL_video.h:
 
 /usr/include/bits/endianness.h:
 
+_deps/sdl_image-build/libSDL3_image.so.0.4.8:
+
+/home/beanie/Documents/beangine/src/utils.h:
+
 /usr/include/alloca.h:
 
 /usr/include/asm-generic/errno-base.h:
@@ -612,9 +617,9 @@ _deps/sdl-src/include/SDL3/SDL_video.h:
 
 /usr/include/c++/16/string:
 
-_deps/sdl-src/include/SDL3/SDL_touch.h:
-
 /usr/include/bits/waitstatus.h:
+
+_deps/sdl-src/include/SDL3/SDL_touch.h:
 
 /usr/include/bits/timesize.h:
 
@@ -654,19 +659,11 @@ _deps/sdl-src/include/SDL3/SDL_touch.h:
 
 /usr/include/bits/types/cookie_io_functions_t.h:
 
-_deps/sdl-src/include/SDL3/SDL_audio.h:
-
-_deps/sdl-src/include/SDL3/SDL_dialog.h:
-
-/usr/include/bits/types/struct_timeval.h:
-
 /usr/include/c++/16/cerrno:
 
 _deps/sdl-src/include/SDL3/SDL_begin_code.h:
 
 /usr/include/bits/types/__FILE.h:
-
-/usr/include/c++/16/bits/vector.tcc:
 
 _deps/sdl-src/include/SDL3/SDL_filesystem.h:
 
@@ -680,15 +677,17 @@ _deps/sdl-src/include/SDL3/SDL_filesystem.h:
 
 /usr/include/c++/16/x86_64-pc-linux-gnu/bits/cpu_defines.h:
 
+_deps/sdl-src/include/SDL3/SDL_main_impl.h:
+
 /usr/include/bits/types/clock_t.h:
 
 /usr/include/bits/types/__fpos_t.h:
 
 /usr/include/bits/types/__locale_t.h:
 
-_deps/sdl-src/include/SDL3/SDL_iostream.h:
-
 /usr/include/bits/stdio_lim.h:
+
+_deps/sdl-src/include/SDL3/SDL_iostream.h:
 
 /usr/include/bits/types/__mbstate_t.h:
 
@@ -757,11 +756,3 @@ _deps/sdl-src/include/SDL3/SDL_storage.h:
 /usr/include/c++/16/bits/basic_string.tcc:
 
 /usr/include/c++/16/bits/concept_check.h:
-
-/usr/include/c++/16/bits/cpp_type_traits.h:
-
-_deps/sdl-src/include/SDL3/SDL_log.h:
-
-_deps/sdl-src/include/SDL3/SDL_camera.h:
-
-/usr/include/c++/16/bits/cxxabi_init_exception.h:

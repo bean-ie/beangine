@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/beangine.dir/link.d"
   "CMakeFiles/beangine.dir/src/main.cpp.o"
   "CMakeFiles/beangine.dir/src/main.cpp.o.d"
+  "CMakeFiles/beangine.dir/src/utils.cpp.o"
+  "CMakeFiles/beangine.dir/src/utils.cpp.o.d"
   "bin/beangine"
   "bin/beangine.pdb"
 )

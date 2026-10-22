@@ -56,7 +56,9 @@ CPMAddPackage(
 )
 list(APPEND LIBS SDL3_image::SDL3_image)
 
+file(GLOB SOURCES "src/*.cpp")
+
 ## Executables
-add_executable(${PROJECT_NAME} src/main.cpp)
+add_executable(${PROJECT_NAME} ${SOURCES})
 target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_23)
 target_link_libraries(${PROJECT_NAME} PRIVATE ${LIBS})
