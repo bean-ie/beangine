@@ -23,6 +23,31 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char **argv) {
 }
 
 SDL_AppResult SDL_AppIterate(void *appstate) {
+    SDL_GPUCommandBuffer* commandBuffer = SDL_AcquireGPUCommandBuffer(device);
+
+    SDL_GPUTexture* swapchainTexture;
+    Uint32 width, height;
+    SDL_WaitAndAcquireGPUSwapchainTexture(commandBuffer, window, &swapchainTexture, &width, &height);
+
+    if (swapchainTexture == NULL) {
+        SDL_SubmitGPUCommandBuffer(commandBuffer);
+        return SDL_APP_CONTINUE;
+    }
+
+    SDL_GPUColorTargetInfo colorTargetInfo{};
+    colorTargetInfo.clear_color = {240/255.0f, 240/255.0f, 255/255.0f};
+    colorTargetInfo.load_op = SDL_GPU_LOADOP_CLEAR;
+    colorTargetInfo.store_op = SDL_GPU_STOREOP_STORE;
+    colorTargetInfo.texture = swapchainTexture;
+
+    SDL_GPURenderPass* renderPass = SDL_BeginGPURenderPass(commandBuffer, &colorTargetInfo, 1, NULL);
+    
+
+
+    SDL_EndGPURenderPass(renderPass);
+    
+    SDL_SubmitGPUCommandBuffer(commandBuffer);
+
     return SDL_APP_CONTINUE;
 }
 
